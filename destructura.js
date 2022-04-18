@@ -25,3 +25,7 @@ const objeto = {nombre: "Ada", apellido: "Lovecode"};
 //Tomamos del objeto la propiedad llamada nombre y la asignamos a la variable n
 const {nombre:n, apellido:a} = objeto;
 console.log(n + " "+a);
+//Tomamos del objeto el valor del nombre y del apellido
+const{nombre,apellido}=objeto;
+console.log(nombre + " "+apellido);
+
