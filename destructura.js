@@ -19,3 +19,9 @@ const varios = {p: 11, q:true, r:"Hola"};
 const {p, r} = varios;
 console.log(p);
 console.log(r);
+
+//Destructuring de objetos (asignando a nuevos nombres de variables)
+const objeto = {nombre: "Ada", apellido: "Lovecode"};
+//Tomamos del objeto la propiedad llamada nombre y la asignamos a la variable n
+const {nombre:n, apellido:a} = objeto;
+console.log(n + " "+a);
