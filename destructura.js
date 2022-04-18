@@ -6,4 +6,8 @@ const galicia = ["A Coruña","Lugo","Ourense","Pontevedra"];
 const [c, lu, ou] = galicia;
 console.log(c);
 console.log(ou);
-console.log(p);
+//console.log(p);
+
+//Destructuring de arrays (asignacion separada de la declaracion)
+let cc, ba;
+[cc, ba="Merida"] = ["Caceres","Badajoz"];
