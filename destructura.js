@@ -11,3 +11,11 @@ console.log(ou);
 //Destructuring de arrays (asignacion separada de la declaracion)
 let cc, ba;
 [cc, ba="Merida"] = ["Caceres","Badajoz"];
+console.log(cc);
+console.log(ba);
+
+//Destructuring de objetos (asignacion basica)
+const varios = {p: 11, q:true, r:"Hola"};
+const {p, r} = varios;
+console.log(p);
+console.log(r);
