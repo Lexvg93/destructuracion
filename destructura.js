@@ -4,4 +4,6 @@ descomponiendolos y asignandolos a un grupo de variables.
 Mediante patrones se pueden especificar  */
 const galicia = ["A Coruña","Lugo","Ourense","Pontevedra"];
 const [c, lu, ou] = galicia;
-console.log
+console.log(c);
+console.log(ou);
+console.log(p);
