@@ -28,4 +28,9 @@ console.log(n + " "+a);
 //Tomamos del objeto el valor del nombre y del apellido
 const{nombre,apellido}=objeto;
 console.log(nombre + " "+apellido);
+//Destructuring de objetos (asignacion sin declaracion)
+let x,y;
+({x,y}={x: 1, y: 2});//Es obligatorio poner parentesis en este tipo de asignacion
+console.log(x);
+console.log(y);
 
